@@ -54,10 +54,10 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"backgroundColor":"background","className":"menu-header","layout":{"type":"constrained","contentSize":"80%","wideSize":"85%"}} -->
+<!-- wp:group {"className":"menu-header","backgroundColor":"background","layout":{"type":"constrained","contentSize":"80%","wideSize":"85%"}} -->
 <div class="wp-block-group menu-header has-background-background-color has-background"><!-- wp:columns {"className":"inner-menu-header"} -->
 <div class="wp-block-columns inner-menu-header"><!-- wp:column {"verticalAlignment":"center","width":"30%","className":"nav-block-left"} -->
-<div class="wp-block-column is-vertically-aligned-center nav-block-left" style="flex-basis:30%"><!-- wp:navigation {"textColor":"heading","overlayBackgroundColor":"background","overlayTextColor":"heading","layout":{"type":"flex","justifyContent":"center"},"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} -->
+<div class="wp-block-column is-vertically-aligned-center nav-block-left" style="flex-basis:30%"><!-- wp:navigation {"textColor":"heading","overlayBackgroundColor":"background","overlayTextColor":"heading","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} -->
 <!-- wp:navigation-link {"label":"HOME","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-link {"label":"COURSES","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
@@ -65,7 +65,6 @@
 <!-- wp:navigation-link {"label":"FEATURES","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-link {"label":"BUY NOW","type":"link","opensInNewTab":true,"url":"https://www.ovationthemes.com/products/education-wordpress-theme","kind":"custom","className":"buynow"} /-->
-
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
 
@@ -80,7 +79,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"40%","className":"menu-right-box"} -->
 <div class="wp-block-column is-vertically-aligned-center menu-right-box" style="flex-basis:40%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"70%","className":"nav-block-right"} -->
-<div class="wp-block-column is-vertically-aligned-center nav-block-right" style="flex-basis:70%"><!-- wp:navigation {"textColor":"heading","overlayBackgroundColor":"background","overlayTextColor":"heading","layout":{"type":"flex","justifyContent":"center"},"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} -->
+<div class="wp-block-column is-vertically-aligned-center nav-block-right" style="flex-basis:70%"><!-- wp:navigation {"textColor":"heading","overlayBackgroundColor":"background","overlayTextColor":"heading","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} -->
 <!-- wp:navigation-link {"label":"EVENTS","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-link {"label":"BLOGS","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
@@ -88,7 +87,6 @@
 <!-- wp:navigation-link {"label":"CONTACT","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-link {"label":"SHOP","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
-
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
 
