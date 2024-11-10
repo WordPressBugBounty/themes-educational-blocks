@@ -42,11 +42,11 @@ function educational_blocks_guide() {
 	$theme = wp_get_theme( '' ); ?>
 
 	<div class="getting-started__header">
-		<div class="col-md-10">
+		<div class="header-box-left">
 			<h2><?php echo esc_html( $theme ); ?></h2>
 			<p><?php esc_html_e('Version: ', 'educational-blocks'); ?><?php echo esc_html($theme['Version']);?></p>
 		</div>
-		<div class="col-md-2">
+		<div class="header-box-right">
 			<div class="btn_box">
 				<a class="button-primary" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_SUPPORT ); ?>" target="_blank"><?php esc_html_e('Support', 'educational-blocks'); ?></a>
 				<a class="button-primary" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_REVIEW ); ?>" target="_blank"><?php esc_html_e('Review', 'educational-blocks'); ?></a>
@@ -55,8 +55,8 @@ function educational_blocks_guide() {
 	</div>
 
 	<div class="wrap getting-started">
-		<div class="container">
-			<div class="col-md-9">
+		<div class="box-container">
+			<div class="box-left-main">
 				<div class="leftbox">
 					<h3><?php esc_html_e('Documentation','educational-blocks'); ?></h3>
 					<p><?php $theme = wp_get_theme(); 
@@ -76,7 +76,7 @@ function educational_blocks_guide() {
 					<a class="button-primary" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_FREE_DOC ); ?>" target="_blank"><?php esc_html_e('Documentation','educational-blocks'); ?></a>
 				</div>
        	</div>
-			<div class="col-md-3">
+			<div class="box-right-main">
 				<h3><?php echo esc_html(EDUCATIONAL_BLOCKS_THEME_NAME); ?></h3>
 				<img class="educational_blocks_img_responsive" style="width: 100%;" src="<?php echo esc_url( $theme->get_screenshot() ); ?>" />
 				<div class="pro-links">
