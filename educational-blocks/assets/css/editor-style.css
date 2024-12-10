@@ -38,7 +38,10 @@ textarea:focus,
 select:focus {
     border-color: var(--wp--preset--color--primary);
 }
-
+select option{
+    background: var(--wp--preset--color--base);
+    color: var(--wp--preset--color--foreground);
+}
 button,
 html input[type="button"],
 input[type="reset"],

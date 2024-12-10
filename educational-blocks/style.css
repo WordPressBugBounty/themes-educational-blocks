@@ -5,9 +5,9 @@ Author: pewilliams
 Author URI: https://www.ovationthemes.com/
 Description: Educational Blocks is a tailored solution crafted especially for educators, schools, learning, training, coaching, workshops, seminars, e-learning, curriculum, tutoring, mentorship, professional development, online courses, certification, academic, skill-building or educational institutions, prioritizing simplicity and accessibility in the digital realm. This theme stands out for its clean and intuitive design, providing a user-friendly platform that empowers educators to showcase educational content without the need for technical expertise. Central to the theme’s appeal is its responsiveness, ensuring optimal viewing on diverse devices, ranging from desktops to tablets and smartphones. This adaptability guarantees accessibility for a broad audience, fostering an inclusive online learning environment. It is also cross-browser compatible, allowing your users to visit your website through the web browser of their choice and comfort. A notable feature of the Educational Blocks WordPress Theme is its robust customization options, allowing users to effortlessly personalize their websites. Whether highlighting courses, faculty profiles, or school events, the theme offers flexibility to create a unique and engaging online space that aligns seamlessly with the educational institution’s identity. Practical functionalities include dedicated sections for course listings, events, and contact details, enhancing the overall user experience. While the theme emphasizes simplicity, it provides a valuable tool for educators seeking a professional online presence. Whether establishing connections with students or sharing educational content effectively, the Educational Blocks WordPress Theme serves as a foundational and accessible solution in the ever-evolving landscape of digital education. Demo: https://trial.ovationthemes.com/education-insight/
 Requires at least: 6.1
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Version: 2.2
+Version: 2.3
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: educational-blocks
@@ -264,7 +264,10 @@ select {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+select option{
+    background: var(--wp--preset--color--base);
+    color: var(--wp--preset--color--foreground);
+}
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -815,7 +818,7 @@ p.scroll-top {
     .post-grid-layout.wp-block-post-template{
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
-    .inner-cover-img h2{
+    .inner-cover-img h2,.without-cover-img h2{
         font-size: 30px !important;
     }
     
@@ -869,7 +872,7 @@ p.scroll-top {
     .search-results .wp-block-post-template li:last-child{
         margin-bottom: 0;
     }
-    .inner-cover-img h2{
+    .inner-cover-img h2,.without-cover-img h2{
         font-size: 25px !important;
         text-align: center !important;
     }

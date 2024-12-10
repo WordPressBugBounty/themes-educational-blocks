@@ -2,9 +2,9 @@
 
 Contributors: pewilliams
 Requires at least: 6.1
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 2.2
+Stable tag: 2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: blog, education, portfolio, one-column, two-columns, custom-colors, custom-menu, custom-logo, sticky-post, threaded-comments, right-sidebar, left-sidebar, grid-layout, custom-background, rtl-language-support, featured-images, wide-blocks, editor-style, full-site-editing, block-patterns, block-styles, style-variations, template-editing, translation-ready
@@ -221,3 +221,10 @@ Educational Blocks is distributed under the terms of the GNU GPL
 
 = 2.2 =
 * Added Dutch(Netherlands) Translation pot file.
+
+= 2.3 =
+* Post No header image template.
+* Page No header image template.
+* Search template bugs resolve.
+* Updated pot file.
+* Added woocoomerce support. 
