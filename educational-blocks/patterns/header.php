@@ -82,7 +82,11 @@
 <div class="wp-block-column is-vertically-aligned-center nav-block-right" style="flex-basis:70%"><!-- wp:navigation {"textColor":"heading","overlayBackgroundColor":"background","overlayTextColor":"heading","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} -->
 <!-- wp:navigation-link {"label":"EVENTS","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"BLOGS","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-submenu {"label":"BLOGS","type":"","url":"#","kind":"custom"} -->
+	<!-- wp:navigation-link {"label":"Page 1","type":"","url":"#","kind":"custom","className":""} /-->
+
+	<!-- wp:navigation-link {"label":"Page 2","type":"","url":"#","kind":"custom","className":""} /-->
+<!-- /wp:navigation-submenu -->
 
 <!-- wp:navigation-link {"label":"CONTACT","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 

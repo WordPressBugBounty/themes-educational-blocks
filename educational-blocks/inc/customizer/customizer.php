@@ -31,6 +31,8 @@ add_action( 'customize_register', 'educational_blocks_customize_register' );
 
 define('EDUCATIONAL_BLOCKS_PRO_LINK',__('https://www.ovationthemes.com/products/education-wordpress-theme','educational-blocks'));
 
+define('EDUCATIONAL_BLOCKS_BUNDLE_BTN',__('https://www.ovationthemes.com/products/wordpress-bundle','educational-blocks'));
+
 /* Pro control */
 if (class_exists('WP_Customize_Control') && !class_exists('Educational_Blocks_Pro_Control')):
     class Educational_Blocks_Pro_Control extends WP_Customize_Control{
@@ -62,7 +64,7 @@ if (class_exists('WP_Customize_Control') && !class_exists('Educational_Blocks_Pr
                 </ul>
             </div>
             <div class="col-md upsell-btn upsell-btn-bottom">
-                <a href="<?php echo esc_url( EDUCATIONAL_BLOCKS_PRO_LINK ); ?>" target="blank" class="btn btn-success btn"><?php esc_html_e('UPGRADE EDUCATIONAL PREMIUM','educational-blocks');?> </a>
+                <a href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUNDLE_BTN ); ?>" target="blank" class="btn btn-success btn"><?php esc_html_e('Wordpress Theme Bundle (100+ Themes at Just $89)','educational-blocks');?> </a>
             </div>
         </label>
     <?php } }

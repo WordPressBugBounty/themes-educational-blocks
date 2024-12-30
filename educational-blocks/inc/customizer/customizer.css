@@ -1,19 +1,20 @@
 /*Cutomizer CSS*/
-#accordion-section-educational_blocks_pro h3.accordion-section-title{
-  background: #ffbd0a;
-	color:#fff;
-}
-#customize-controls #accordion-section-educational_blocks_pro .accordion-section-title:focus, #customize-controls #accordion-section-educational_blocks_pro .accordion-section-title:hover, #customize-controls #accordion-section-educational_blocks_pro.open .accordion-section-title, #customize-controls #accordion-section-educational_blocks_pro:hover>.accordion-section-title{
-  background: #ffbd0a;
-  color: #fff;
+#accordion-section-educational_blocks_pro h3.accordion-section-title,
+#customize-controls #accordion-section-educational_blocks_pro .accordion-section-title button:focus,
+#customize-controls #accordion-section-educational_blocks_pro .accordion-section-title:focus, 
+#customize-controls #accordion-section-educational_blocks_pro .accordion-section-title:hover, 
+#customize-controls #accordion-section-educational_blocks_pro.open .accordion-section-title, 
+#customize-controls #accordion-section-educational_blocks_pro:hover>.accordion-section-title,
+#customize-controls #accordion-section-educational_blocks_pro .accordion-section-title button:hover{
+  background: #f0c70a;
+  color:#fff;
+  border-left-color:#f0c70a;
+  font-size: 12px;
 }
 #customize-theme-controls #accordion-section-educational_blocks_pro .accordion-section-title:after{
   color:#fff;
 }
 
-#customize-controls .control-section .accordion-section-title:hover,#customize-controls .control-section .accordion-section-title:focus{
-  border-left-color:#ffbd0a;
-}
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 18px;
@@ -22,7 +23,7 @@
 }
 .upsell-btn > .btn-success {
   color: #fff;
-  background: #ffbd0a;
+  background: #f0c70a;
   text-decoration: none;
 }
 .upsell-btn{
@@ -37,4 +38,5 @@
   padding: 10px;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 10px;
 }

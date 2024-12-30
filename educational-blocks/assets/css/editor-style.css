@@ -18,7 +18,49 @@ button:focus{
 form {
     position: relative;
 }
-
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+    width: 100%;
+    margin: 0;
+    padding: 10px 15px;
+    border: 1px solid var(--wp--preset--color--border-color);
+    outline: 0;
+    resize: none;
+    line-height: 20px;
+    background: none;
+    color: var(--wp--preset--color--foreground);
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+select option{
+    background: var(--wp--preset--color--base);
+    color: var(--wp--preset--color--foreground);
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {
+    display: none; /* hide the default arrow in ie10 and ie11 */
+}
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -214,7 +256,11 @@ input[type="submit"] {
 .wp-block-group.woocommerce.product{
     margin-block-start: 0;
 }
-.wc-block-grid__product,.woocommerce .products li,.wp-block-woocommerce-related-products li,.products-block-post-template li {
+.wc-block-product,
+.wc-block-grid__product,
+.woocommerce .products li,
+.wp-block-woocommerce-related-products li,
+.products-block-post-template li{
     text-align: center;
     padding: 10px !important;
     background: var(--wp--preset--color--section-bg);
