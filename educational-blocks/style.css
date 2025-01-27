@@ -7,7 +7,7 @@ Description: Educational Blocks is a tailored solution crafted especially for ed
 Requires at least: 6.1
 Tested up to: 6.7
 Requires PHP: 5.6
-Version: 2.4
+Version: 2.5
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: educational-blocks
@@ -86,6 +86,7 @@ button:focus{
     }
     .wp-block-navigation ul ul li a{
         border-bottom: 1px solid var(--wp--preset--color--border-color);
+        color: var(--wp--preset--color--primary) !important;
     }
     .wp-block-navigation ul li:last-child a{
         border-bottom: none;
@@ -135,9 +136,11 @@ button:focus{
         height: 26px;
     }
     
-    .wp-block-navigation__responsive-container-open svg path,
-    .wp-block-navigation__responsive-container-close svg path{
+    .wp-block-navigation__responsive-container-open svg{
         fill: var(--wp--preset--color--heading);
+    }
+    .wp-block-navigation__responsive-container-close svg{
+        fill: var(--wp--preset--color--black);
     }
 
     .wp-block-navigation__responsive-container-close{
@@ -154,7 +157,7 @@ button:focus{
     }
 
     .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open{
-        background-color: var(--wp--preset--color--secondary);
+        background-color: var(--wp--preset--color--white);
     }
 
     .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content{
@@ -197,7 +200,7 @@ button:focus{
         width: 42px;
     }
     .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon svg {
-        stroke: var(--wp--preset--color--heading);
+        stroke: var(--wp--preset--color--black);
         display: block;
         width: 30px;
         height: 13px;
@@ -764,6 +767,12 @@ p.scroll-top {
     margin-inline-start: 0 !important;
 }
 /*testimonial*/
+.profit-img{
+    padding: 0 !important;
+}
+.profit-img .wp-block-cover .wp-block-cover__inner-container{
+    height: 700px;
+}
 .testimonial-box{
     opacity: 0.7;
 }
@@ -1118,6 +1127,9 @@ p.scroll-top {
     }
     .testimonial-upper-box{
         position: static;
+    }
+    .profit-img .wp-block-cover .wp-block-cover__inner-container{
+        height: auto;
     }
     .section-heading,.about-content h2,.event-head h2{
         font-size: 35px;

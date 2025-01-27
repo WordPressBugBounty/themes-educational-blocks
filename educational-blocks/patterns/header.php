@@ -79,7 +79,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"40%","className":"menu-right-box"} -->
 <div class="wp-block-column is-vertically-aligned-center menu-right-box" style="flex-basis:40%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"70%","className":"nav-block-right"} -->
-<div class="wp-block-column is-vertically-aligned-center nav-block-right" style="flex-basis:70%"><!-- wp:navigation {"textColor":"heading","overlayBackgroundColor":"background","overlayTextColor":"heading","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-column is-vertically-aligned-center nav-block-right" style="flex-basis:70%"><!-- wp:navigation {"textColor":"heading","overlayBackgroundColor":"white","overlayTextColor":"black","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} -->
 <!-- wp:navigation-link {"label":"EVENTS","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-submenu {"label":"BLOGS","type":"","url":"#","kind":"custom"} -->
