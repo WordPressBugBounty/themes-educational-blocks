@@ -50,6 +50,7 @@ function educational_blocks_guide() {
 		</div>
 		<div class="header-box-right">
 			<div class="btn_box">
+				<a class="button-primary" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_FREE_DOC ); ?>" target="_blank"><?php esc_html_e('Documentation', 'educational-blocks'); ?></a>
 				<a class="button-primary" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_SUPPORT ); ?>" target="_blank"><?php esc_html_e('Support', 'educational-blocks'); ?></a>
 				<a class="button-primary" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_REVIEW ); ?>" target="_blank"><?php esc_html_e('Review', 'educational-blocks'); ?></a>
 			</div>

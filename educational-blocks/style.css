@@ -7,7 +7,7 @@ Description: Educational Blocks is a tailored solution crafted especially for ed
 Requires at least: 6.1
 Tested up to: 6.7
 Requires PHP: 5.6
-Version: 2.6
+Version: 2.7
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: educational-blocks
@@ -1123,7 +1123,7 @@ p.scroll-top {
 }
 @media screen and (max-width:425px){
     .featured-box-inner{
-        min-height: 320px !important;i
+        min-height: 320px !important;
     }
     .featured-box-inner h6{
         font-size: 16px !important;
