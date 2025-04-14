@@ -88,7 +88,7 @@ function educational_blocks_guide() {
 						<a class="button-primary buynow" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Buy Now', 'educational-blocks'); ?></a>
 						<a class="button-primary docs" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_PRO_DOC ); ?>" target="_blank"><?php esc_html_e('Documentation', 'educational-blocks'); ?></a>
 					</div>
-						<a class="button-primary bundle-btn" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUNDLE_LINK ); ?>" target="_blank"><?php esc_html_e('Wordpress Theme Bundle (100+ Themes at Just $89)', 'educational-blocks'); ?></a>
+						<a class="button-primary bundle-btn" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUNDLE_LINK ); ?>" target="_blank"><?php esc_html_e('Wordpress Theme Bundle (120+ Themes at Just $89)', 'educational-blocks'); ?></a>
 				</div>
 				<ul style="padding-top:10px">
 					<li class="upsell-educational_blocks"> <div class="dashicons dashicons-yes"></div> <?php esc_html_e('Responsive Design', 'educational-blocks');?> </li>                 

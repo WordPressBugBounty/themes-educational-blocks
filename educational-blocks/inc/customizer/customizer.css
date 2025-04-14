@@ -5,10 +5,10 @@
 #customize-controls #accordion-section-educational_blocks_pro .accordion-section-title:hover, 
 #customize-controls #accordion-section-educational_blocks_pro.open .accordion-section-title, 
 #customize-controls #accordion-section-educational_blocks_pro:hover>.accordion-section-title,
-#customize-controls #accordion-section-educational_blocks_pro .accordion-section-title button:hover{
-  background: #f0c70a;
+#customize-controls #accordion-section-c_pro .accordion-section-title button:hover{
+  background: #ffbd0a;
   color:#fff;
-  border-left-color:#f0c70a;
+  border-left-color:#ffbd0a;
   font-size: 12px;
 }
 #customize-theme-controls #accordion-section-educational_blocks_pro .accordion-section-title:after{
@@ -23,20 +23,18 @@
 }
 .upsell-btn > .btn-success {
   color: #fff;
-  background: #f0c70a;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
 }
 .upsell-btn{
   margin-bottom: 20px;
   margin-top: 10px;
   text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ffbd0a;
 }
 .upsell-btn-bottom{
   margin-top:20px;
-}
-.upsell-btn > a.btn.btn-success.btn {
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 10px;
 }

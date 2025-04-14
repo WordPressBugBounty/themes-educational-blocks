@@ -64,7 +64,7 @@ if (class_exists('WP_Customize_Control') && !class_exists('Educational_Blocks_Pr
                 </ul>
             </div>
             <div class="col-md upsell-btn upsell-btn-bottom">
-                <a href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUNDLE_BTN ); ?>" target="blank" class="btn btn-success btn"><?php esc_html_e('Wordpress Theme Bundle (100+ Themes at Just $89)','educational-blocks');?> </a>
+                <a href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUNDLE_BTN ); ?>" target="blank" class="btn btn-success btn"><?php esc_html_e('WP Theme Bundle (120+ Themes)','educational-blocks');?> </a>
             </div>
         </label>
     <?php } }

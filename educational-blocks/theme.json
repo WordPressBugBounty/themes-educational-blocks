@@ -219,150 +219,117 @@
         "typography": {
             "fontFamilies": [
                 {
+                    "fontFamily": "\"Figtree\", sans-serif",
+                    "name": "Figtree",
+                    "slug": "figtree",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Figtree",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "300 900",
+                            "src": [
+                                "file:./assets/fonts/figtree/Figtree-VariableFont_wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Figtree",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "300 900",
+                            "src": [
+                                "file:./assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Outfit\", sans-serif",
+                    "name": "Outfit",
+                    "slug": "outfit",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/outfit/Outfit-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Lora\", serif",
+                    "name": "Lora",
+                    "slug": "lora",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Lora",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400 700",
+                            "src": [
+                                "file:./assets/fonts/lora/Lora-VariableFont_wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Lora",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "400 700",
+                            "src": [
+                                "file:./assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Inter\", sans-serif",
+                    "name": "Inter",
+                    "slug": "inter",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/inter/Inter-Italic-VariableFont_opsz,wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
                     "fontFamily": "\"Roboto\", sans-serif",
                     "name": "Roboto",
                     "slug": "roboto",
                     "fontFace": [
                         {
                             "fontFamily": "Roboto",
-                            "fontWeight": "100",
+                            "fontStretch": "normal",
                             "fontStyle": "normal",
-                            "fontStretch": "",
+                            "fontWeight": "100 900",
                             "src": [
-                                "file:./assets/fonts/Roboto/Roboto-Thin.ttf"
+                                "file:./assets/fonts/roboto/Roboto-VariableFont_wdth,wght.ttf"
                             ]
                         },
                         {
                             "fontFamily": "Roboto",
-                            "fontWeight": "300",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 900",
                             "src": [
-                                "file:./assets/fonts/Roboto/Roboto-Light.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto/Roboto-Regular.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto",
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto/Roboto-Medium.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto",
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto/Roboto-Bold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto",
-                            "fontWeight": "900",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto/Roboto-Black.ttf"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "fontFamily": "\"Poppins\", sans-serif",
-                    "name": "Poppins",
-                    "slug": "poppins",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Poppins",
-                            "fontWeight": "100",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Poppins/Poppins-Thin.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Poppins",
-                            "fontWeight": "200",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Poppins/Poppins-ExtraLight.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Poppins",
-                            "fontWeight": "300",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Poppins/Poppins-Light.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Poppins",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Poppins/Poppins-Regular.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Poppins",
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Poppins/Poppins-Medium.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Poppins",
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Poppins/Poppins-SemiBold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Poppins",
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Poppins/Poppins-Bold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Poppins",
-                            "fontWeight": "800",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Poppins/Poppins-ExtraBold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Poppins",
-                            "fontWeight": "900",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Poppins/Poppins-Black.ttf"
+                                "file:./assets/fonts/roboto/Roboto-Italic-VariableFont_wdth,wght.ttf"
                             ]
                         }
                     ]
@@ -374,65 +341,11 @@
                     "fontFace": [
                         {
                             "fontFamily": "Roboto Slab",
-                            "fontWeight": "300",
+                            "fontStretch": "normal",
                             "fontStyle": "normal",
-                            "fontStretch": "",
+                            "fontWeight": "100 900",
                             "src": [
-                                "file:./assets/fonts/Roboto_Slab/static/RobotoSlab-Light.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto Slab",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto Slab",
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto Slab",
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto_Slab/static/RobotoSlab-SemiBold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto Slab",
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto Slab",
-                            "fontWeight": "800",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto_Slab/static/RobotoSlab-ExtraBold.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Roboto_Slab",
-                            "fontWeight": "900",
-                            "fontStyle": "normal",
-                            "fontStretch": "",
-                            "src": [
-                                "file:./assets/fonts/Roboto Slab/static/RobotoSlab-Black.ttf"
+                                "file:./assets/fonts/roboto_slab/RobotoSlab-VariableFont_wght.ttf"
                             ]
                         }
                     ]

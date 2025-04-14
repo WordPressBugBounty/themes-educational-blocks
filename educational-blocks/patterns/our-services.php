@@ -10,8 +10,8 @@
 <div class="wp-block-group service-section" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"className":"service-box wow bounceInUp delay-1000","style":{"border":{"radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"footer-Bg","layout":{"type":"default"}} -->
 <div class="wp-block-group service-box wow bounceInUp delay-1000 has-footer-bg-background-color has-background" style="border-radius:10px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontFamily":"roboto"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color has-roboto-font-family"><?php esc_html_e('Lorem Ipsum simply','educational-blocks'); ?></h3>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><?php esc_html_e('Lorem Ipsum simply','educational-blocks'); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"white"} -->

@@ -101,8 +101,8 @@
 <p class="has-white-color has-text-color has-link-color has-small-font-size"><a rel="noreferrer noopener" href="https://www.ovationthemes.com/products/free-education-wordpress-theme" target="_blank"><?php esc_html_e('Educational Blocks WordPress Theme','educational-blocks'); ?></a>.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"white","fontFamily":"roboto"} -->
-<p class="has-white-color has-text-color has-link-color has-roboto-font-family"><?php esc_html_e('Proudly powered by ','educational-blocks'); ?><a rel="noreferrer noopener" href="https://www.ovationthemes.com/" target="_blank"><?php esc_html_e('Ovation Themes','educational-blocks'); ?></a> <?php esc_html_e('and','educational-blocks'); ?> <a href="https://wordpress.org"><?php esc_html_e('WordPress','educational-blocks'); ?></a>.</p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"white"} -->
+<p class="has-white-color has-text-color has-link-color"><?php esc_html_e('Proudly powered by ','educational-blocks'); ?><a rel="noreferrer noopener" href="https://www.ovationthemes.com/" target="_blank"><?php esc_html_e('Ovation Themes','educational-blocks'); ?></a> <?php esc_html_e('and','educational-blocks'); ?> <a href="https://wordpress.org"><?php esc_html_e('WordPress','educational-blocks'); ?></a>.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
