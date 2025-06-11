@@ -1109,3 +1109,71 @@ p.scroll-top {
         font-size: 16px !important;
     }
 }
+
+/*frontpage swiper css start*/
+.wp-block-group.educational-blocks-swiper {
+  overflow: hidden;
+  position: relative;
+}
+.educational-blocks-swiper .swiper-slide {
+  display: flex;
+}
+.wp-block-group.educational-blocks-swiper-controls {
+  position: unset;
+}
+.wp-block-group.educational-blocks-swiper .wp-block-cover.swiper-slide {
+  margin-block-start: 0 !important;
+}
+.educational-blocks-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+  position: absolute;
+  bottom: 20px;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  right: 50%;
+  transform: translateX(50%);
+}
+.educational-blocks-pagination.swiper-pagination-clickable.swiper-pagination-bullets span.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+}
+.educational-blocks-pagination.swiper-pagination-clickable.swiper-pagination-bullets span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: var(--wp--preset--color--secondary);
+}
+.wp-block-group.educational-blocks-swiper .educational-blocks-swiper-button-prev,
+.wp-block-group.educational-blocks-swiper .educational-blocks-swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  background: #FFFFFF;
+  color: #000;
+  transition: all ease 0.23s;
+  opacity: 1;
+  top: 50%;
+  margin: -20px 0 0 0;
+}
+.wp-block-group.educational-blocks-swiper .educational-blocks-swiper-button-prev{
+    right: 10px;
+}
+.wp-block-group.educational-blocks-swiper .educational-blocks-swiper-button-next{
+    left: 10px;
+}
+.wp-block-group.educational-blocks-swiper .educational-blocks-swiper-button-prev:hover,
+.wp-block-group.educational-blocks-swiper .educational-blocks-swiper-button-next:hover {
+  background: var(--wp--preset--color--primary);
+  color: #fff;
+}
+.wp-block-group.educational-blocks-swiper .educational-blocks-swiper-button-prev:after,
+.wp-block-group.educational-blocks-swiper .educational-blocks-swiper-button-next:after {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.educational-blocks-swiper-controls.wp-block-group.block-editor-block-list__layout .wp-block.wp-block-html {
+  display: none;
+}
+
+.educational-blocks-swiper-controls.wp-block-group.block-editor-block-list__layout .wp-block.is-selected.wp-block-html {
+  display: block !important;
+}
+/*frontpage swiper css end*/
