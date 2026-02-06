@@ -5,9 +5,9 @@ Author: pewilliams
 Author URI: https://www.ovationthemes.com/
 Description: Educational Blocks is a tailored solution crafted especially for educators, schools, learning, training, coaching, workshops, seminars, e-learning, curriculum, tutoring, mentorship, professional development, online courses, certification, academic, skill-building or educational institutions, prioritizing simplicity and accessibility in the digital realm. This theme stands out for its clean and intuitive design, providing a user-friendly platform that empowers educators to showcase educational content without the need for technical expertise. Central to the theme’s appeal is its responsiveness, ensuring optimal viewing on diverse devices, ranging from desktops to tablets and smartphones. This adaptability guarantees accessibility for a broad audience, fostering an inclusive online learning environment. It is also cross-browser compatible, allowing your users to visit your website through the web browser of their choice and comfort. A notable feature of the Educational Blocks WordPress Theme is its robust customization options, allowing users to effortlessly personalize their websites. Whether highlighting courses, faculty profiles, or school events, the theme offers flexibility to create a unique and engaging online space that aligns seamlessly with the educational institution’s identity. Practical functionalities include dedicated sections for course listings, events, and contact details, enhancing the overall user experience. While the theme emphasizes simplicity, it provides a valuable tool for educators seeking a professional online presence. Whether establishing connections with students or sharing educational content effectively, the Educational Blocks WordPress Theme serves as a foundational and accessible solution in the ever-evolving landscape of digital education. Demo: https://trial.ovationthemes.com/education-insight/
 Requires at least: 6.1
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.6
-Version: 3.3
+Version: 4.1
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: educational-blocks
@@ -339,6 +339,11 @@ input[type="submit"] {
 .sidebar-box,.inner-post-box{
     position: relative;
     box-shadow: 0px 4px 9px var(--wp--preset--color--sidebar-shadow-color);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.sidebar-box:hover{
+    transform: translateY(-6px);
+    box-shadow:0 18px 40px rgba(0, 0, 0, 0.25), 0 8px 20px rgba(0, 0, 0, 0.20);
 }
 .sidebar-heading{
     display: table;
@@ -422,6 +427,34 @@ input[type="submit"] {
 }
 .wp-block-post-comments-form textarea{
     background: var(--wp--preset--color--section-bg);
+}
+.single-post .post-meta .wp-block-post-author{
+    align-items: center;
+}
+.single-post .wp-block-comments .comment-respond .comment-form .comment-form-cookies-consent{
+    align-items: flex-start;
+}
+.single-post .wp-block-post-featured-image img{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+     transform: translateY(10px);
+    transition: all 0.4s ease;
+}
+.single-post .wp-block-post-featured-image img:hover{
+    transform: translateY(0px);
+}
+.single-post .related-post .wp-block-post-featured-image img{
+    height: 200px;
+    width: 100%;
+}
+form.woocommerce-ordering select.orderby{
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+}
+.woocommerce-page .wp-block-breadcrumbs + .wp-block-query-title{
+    display: none;
 }
 /*pagination*/
 .wp-block-query-pagination-numbers .page-numbers{
@@ -570,7 +603,7 @@ nav.woocommerce-MyAccount-navigation ul li:hover a{
 .is-large.wc-block-cart .wc-block-cart-items td:after ,.is-large.wc-block-cart .wc-block-cart-items:after {
     border-color: transparent;
 }
-.wc-block-cart .wc-block-cart-items th,.wp-block-woocommerce-cart-order-summary-block .wc-block-cart__totals-title{
+.wc-block-cart .wc-block-cart-items th,.wp-block-woocommerce-cart-order-summary-block .wc-block-cart__totals-title, .wp-block-woocommerce-cart .wc-block-cart__sidebar .wp-block-woocommerce-cart-order-summary-coupon-form-block, .wp-block-woocommerce-cart .wc-block-cart__sidebar .wc-block-components-totals-wrapper{
     padding: 10px !important;
 }
 .wc-block-cart table.wc-block-cart-items{
@@ -701,6 +734,35 @@ p.scroll-top {
 .banner-image-cover img,.popular-course-box img,.about-img-box img,.event-box img{
     width: 100%;
 }
+.popular-course-box img{
+    transition: opacity 0.3s ease;
+}
+.popular-course-box:hover img{
+    opacity: 0.8;
+}
+img[src*="about1"],
+img[src*="about2"],
+img[src*="about4"]
+img[src*="about3"]{
+    transition: opacity 0.3s ease;
+}
+img[src*="about1"]:hover,
+img[src*="about2"]:hover,
+img[src*="about4"]:hover,
+img[src*="about3"]:hover{
+   opacity: 0.8;
+    border: 2px solid rgb(255, 249, 249);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+img[src*="event1"],
+img[src*="event2"]{
+    transition: opacity 0.3s ease;
+}
+img[src*="event1"]:hover,
+img[src*="event2"]:hover{
+   opacity: 0.8;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
 .banner-content h3{
     width: 50%;
 }
@@ -802,6 +864,9 @@ p.scroll-top {
 }
 .footer-widgets li a{
     text-decoration: none;
+}
+.footer-widgets h2{
+    font-size: 26px !important;
 }
 .footer-widgets h1, .footer-widgets h2, .footer-widgets h3, .footer-widgets h4, .footer-widgets h5, .footer-widgets h6 {
     display: inline-block;
@@ -922,6 +987,16 @@ p.scroll-top {
     }
     .inner-menu-header nav ul li a{
         letter-spacing: 1px;
+    }
+
+}
+
+@media screen and (max-width:1400px) and (min-width: 1100px){
+    .inner-menu-header nav ul,.event-box .wp-block-columns{
+        gap: 6px !important;
+    }
+    .inner-menu-header nav ul li a{
+  font-size: 15px !important;
     }
 
 }

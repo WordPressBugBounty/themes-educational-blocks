@@ -1,52 +1,52 @@
 {
     "$schema": "https://schemas.wp.org/trunk/theme.json",
-    "title": "Purple",
+    "title": "Red",
     "version": 2,
     "settings": {
         "color": {
             "palette": [
                 {
-                    "color": "#fbfbfb",
+                    "color": "#A30B30",
                     "name": "Base",
                     "slug": "base"
                 },
                 {
-                    "color": "#7278F2",
+                    "color": "#F26B00",
                     "name": "Primary",
                     "slug": "primary"
                 },
                 {
-                    "color": "#68A8AD",
+                    "color": "#1600F2",
                     "name": "Secondary",
                     "slug": "secondary"
                 },
                 {
-                    "color": "#2F8BBF",
+                    "color": "#FFBD0A",
                     "name": "Ternary",
                     "slug": "ternary"
                 },
                 {
-                    "color": "#F17D80",
+                    "color": "#1BA81D",
                     "name": "Fourth",
                     "slug": "fourth"
                 },
                 {
-                    "color": "#E6E7FF",
+                    "color": "#FFE2E5",
                     "name": "Primary Light",
                     "slug": "primary-light"
                 },
                 {
-                    "color": "#737495",
+                    "color": "#0D6884",
                     "name": "Testimonial Bg",
                     "slug": "testimonial-bg"
                 },
                 {
-                    "color": "#6E6E89",
+                    "color": "#666c6e",
                     "name": "Body Text",
                     "slug": "body-text"
                 },
                 {
-                    "color": "#1A1C3F",
+                    "color": "#2c2c2c",
                     "name": "Headings",
                     "slug": "heading"
                 },
@@ -66,7 +66,7 @@
                     "slug": "foreground"
                 },
                 {
-                    "color": "#2C2D4C",
+                    "color": "#271706",
                     "name": "Footer Bg",
                     "slug": "footer-Bg"
                 },

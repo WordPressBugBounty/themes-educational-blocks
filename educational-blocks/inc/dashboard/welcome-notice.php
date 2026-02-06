@@ -213,8 +213,8 @@ function educational_blocks_custom_admin_notice() {
                     </div>
                     <div class="notice-buttons-box">
                         <a class="button-primary livedemo" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_LIVE_DEMO ); ?>" target="_blank"><?php esc_html_e('Live Demo', 'educational-blocks'); ?></a>
-                        <a class="button-primary buynow" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Buy Now', 'educational-blocks'); ?></a>
-                        <a class="button-primary theme-install" id="install-activate-button" href="#"><?php _e('Begin Installation', 'educational-blocks'); ?></a>`
+                        <a class="button-primary buynow" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Get Pro Theme', 'educational-blocks'); ?></a>
+                        <a class="button-primary theme-install" id="install-activate-button" href="#"><?php _e('Begin Installation', 'educational-blocks'); ?></a>
                     </div>
                 </div>
             </div>

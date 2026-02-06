@@ -1,52 +1,52 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
-    "title": "Purple",
-    "version": 2,
-    "settings": {
-        "color": {
-            "palette": [
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Yellow",
+  "version": 2,
+  "settings": {
+    "color": {
+        "palette": [
                 {
                     "color": "#fbfbfb",
                     "name": "Base",
                     "slug": "base"
                 },
                 {
-                    "color": "#7278F2",
+                    "color": "#8E850C",
                     "name": "Primary",
                     "slug": "primary"
                 },
                 {
-                    "color": "#68A8AD",
+                    "color": "#BA2EFF",
                     "name": "Secondary",
                     "slug": "secondary"
                 },
                 {
-                    "color": "#2F8BBF",
+                    "color": "#226A75",
                     "name": "Ternary",
                     "slug": "ternary"
                 },
                 {
-                    "color": "#F17D80",
+                    "color": "#3C382C",
                     "name": "Fourth",
                     "slug": "fourth"
                 },
                 {
-                    "color": "#E6E7FF",
+                    "color": "#DDFFF9",
                     "name": "Primary Light",
                     "slug": "primary-light"
                 },
                 {
-                    "color": "#737495",
+                    "color": "#484D76",
                     "name": "Testimonial Bg",
                     "slug": "testimonial-bg"
                 },
                 {
-                    "color": "#6E6E89",
+                    "color": "#666c6e",
                     "name": "Body Text",
                     "slug": "body-text"
                 },
                 {
-                    "color": "#1A1C3F",
+                    "color": "#2c2c2c",
                     "name": "Headings",
                     "slug": "heading"
                 },
@@ -66,17 +66,17 @@
                     "slug": "foreground"
                 },
                 {
-                    "color": "#2C2D4C",
+                    "color":"#06231E",
                     "name": "Footer Bg",
                     "slug": "footer-Bg"
                 },
                 {
-                    "color": "#dfdfdf",
+                    "color":"#dfdfdf",
                     "name": "Border Color",
                     "slug": "border-color"
                 },
                 {
-                    "color": "#a7aaad",
+                    "color":"#a7aaad",
                     "name": "Sidebar Shadow Color",
                     "slug": "sidebar-shadow-color"
                 },
@@ -86,6 +86,6 @@
                     "slug": "second-bg"
                 }
             ]
-        }
     }
+  }
 }

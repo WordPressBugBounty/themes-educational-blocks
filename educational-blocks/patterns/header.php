@@ -62,8 +62,6 @@
 
 <!-- wp:navigation-link {"label":"COURSES","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"FEATURES","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
-
 <!-- wp:navigation-link {"label":"BUY NOW","type":"link","opensInNewTab":true,"url":"https://www.ovationthemes.com/products/education-wordpress-theme","kind":"custom","className":"buynow"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
@@ -90,7 +88,6 @@
 
 <!-- wp:navigation-link {"label":"CONTACT","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"SHOP","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
 
@@ -101,8 +98,7 @@
 <!-- wp:social-link {"url":"#","service":"twitter"} /-->
 
 <!-- wp:social-link {"url":"#","service":"linkedin"} /-->
-
-<!-- wp:social-link {"url":"#","service":"pinterest"} /--></ul>
+ </ul>
 <!-- /wp:social-links --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

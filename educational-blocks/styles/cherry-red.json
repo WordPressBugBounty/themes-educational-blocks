@@ -1,10 +1,10 @@
 {
-  "$schema": "https://schemas.wp.org/trunk/theme.json",
-  "title": "Cherry Red",
-  "version": 2,
-  "settings": {
-    "color": {
-        "palette": [
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "title": "Cherry Red",
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
                 {
                     "color": "#fbfbfb",
                     "name": "Base",
@@ -66,17 +66,17 @@
                     "slug": "foreground"
                 },
                 {
-                    "color":"#271706",
+                    "color": "#271706",
                     "name": "Footer Bg",
                     "slug": "footer-Bg"
                 },
                 {
-                    "color":"#dfdfdf",
+                    "color": "#dfdfdf",
                     "name": "Border Color",
                     "slug": "border-color"
                 },
                 {
-                    "color":"#a7aaad",
+                    "color": "#a7aaad",
                     "name": "Sidebar Shadow Color",
                     "slug": "sidebar-shadow-color"
                 },
@@ -86,18 +86,6 @@
                     "slug": "second-bg"
                 }
             ]
-    }
-  },
-   "styles": {
-    "elements": {
-      "heading": {
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--lora)"
         }
-      }
-    },
-    "typography": {
-      "fontFamily": "var(--wp--preset--font-family--inter)"
     }
-  }
 }

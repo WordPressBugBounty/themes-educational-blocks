@@ -31,13 +31,13 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":5,"textColor":"white","fontFamily":"roboto-slab"} -->
-<h5 class="wp-block-heading has-white-color has-text-color has-roboto-slab-font-family"><?php esc_html_e('Contact Us','educational-blocks'); ?></h5>
+<div class="wp-block-column"><!-- wp:heading {"textColor":"white","fontFamily":"roboto-slab"} -->
+<h2 class="wp-block-heading has-white-color has-text-color has-roboto-slab-font-family"><?php esc_html_e('Contact Us','educational-blocks'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":479,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/location.png'); ?>" alt="" class="wp-image-479"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/location.png'); ?>l" alt="" class="wp-image-479"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"fontSize":"extra-small"} -->
@@ -67,26 +67,32 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top"} -->
-<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":5,"textColor":"white","fontFamily":"roboto-slab"} -->
-<h5 class="wp-block-heading has-white-color has-text-color has-roboto-slab-font-family"><?php esc_html_e('Quick Links','educational-blocks'); ?></h5>
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textColor":"white","fontFamily":"roboto-slab"} -->
+<h2 class="wp-block-heading has-white-color has-text-color has-roboto-slab-font-family"><?php esc_html_e('Quick Links','educational-blocks'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:list {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<ul class="wp-block-list has-white-color has-text-color has-link-color">
-<!-- wp:list-item --><li><a href="#"><?php esc_html_e('Home','educational-blocks'); ?></a></li><!-- /wp:list-item -->
+<ul class="wp-block-list has-white-color has-text-color has-link-color"><!-- wp:list-item -->
+<li><a href="#"><?php esc_html_e('Home','educational-blocks'); ?></a></li>
+<!-- /wp:list-item -->
 
-<!-- wp:list-item --><li><a href="#"><?php esc_html_e('Courses','educational-blocks'); ?></a></li><!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="#"><?php esc_html_e('Courses','educational-blocks'); ?></a></li>
+<!-- /wp:list-item -->
 
-<!-- wp:list-item --><li><a href="#"><?php esc_html_e('Features','educational-blocks'); ?></a></li><!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="#"><?php esc_html_e('Features','educational-blocks'); ?></a></li>
+<!-- /wp:list-item -->
 
-<!-- wp:list-item --><li><a href="#"><?php esc_html_e('Events','educational-blocks'); ?></a></li><!-- /wp:list-item -->
-</ul>
+<!-- wp:list-item -->
+<li><a href="#"><?php esc_html_e('Events','educational-blocks'); ?></a></li>
+<!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top"} -->
-<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":5,"textColor":"white","fontFamily":"roboto-slab"} -->
-<h5 class="wp-block-heading has-white-color has-text-color has-roboto-slab-font-family"><?php esc_html_e('Search','educational-blocks'); ?></h5>
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textColor":"white","fontFamily":"roboto-slab"} -->
+<h2 class="wp-block-heading has-white-color has-text-color has-roboto-slab-font-family"><?php esc_html_e('Search','educational-blocks'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:search {"label":"Search","showLabel":false,"placeholder":"search","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true} /--></div>
