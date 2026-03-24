@@ -17,7 +17,6 @@ if (!function_exists('educational_blocks_is_plugin_activated')) {
     }
 }
 
-
 // Hook into a custom action when the button is clicked
 add_action('wp_ajax_educational_blocks_install_and_activate_plugins', 'educational_blocks_install_and_activate_plugins');
 add_action('wp_ajax_nopriv_educational_blocks_install_and_activate_plugins', 'educational_blocks_install_and_activate_plugins');
@@ -150,7 +149,7 @@ function educational_blocks_install_and_activate_plugins() {
     if (ob_get_length()) ob_clean();
 
     header('Content-Type: application/json; charset=utf-8');
-    $redirect_url = admin_url('themes.php?page=educational-blocks-guide-page');
+    $redirect_url = admin_url('themes.php?page=educational-blocks-pro');
     echo json_encode([
         'success' => true,
         'data' => [
@@ -202,7 +201,7 @@ function educational_blocks_custom_admin_notice() {
     if (!get_option('dismissed-get_started_notice', false)) {
         $educational_blocks_current_screen = get_current_screen();
         $educational_blocks_theme = wp_get_theme();
-        if ($educational_blocks_current_screen && $educational_blocks_current_screen->id !== 'appearance_page_educational-blocks-guide-page') {
+        if ($educational_blocks_current_screen && $educational_blocks_current_screen->id !== 'appearance_page_educational-blocks-pro') {
             ?>
 
             <div class="educational-blocks-admin-notice notice notice-info is-dismissible content-install-plugin theme-info-notice" id="educational-blocks-dismiss-notice" data-notice="get_started_notice">
@@ -212,9 +211,15 @@ function educational_blocks_custom_admin_notice() {
                         <p><?php _e('For information and detailed instructions, check out our theme documentation.', 'educational-blocks'); ?></p>
                     </div>
                     <div class="notice-buttons-box">
+                        <?php if ( ! is_plugin_active( 'ovation-elements/ovation-elements.php' ) ) : ?>
+                        <button class="button-primary educational-blocks-notice-install-btn">
+                            <span class="dashicons dashicons-download"></span>
+                            <?php esc_html_e( 'Begin Installation', 'educational-blocks' ); ?>
+                        </button>
+                        <?php endif; ?>
+                        <a class="button-primary getstarted" href="<?php echo esc_url( admin_url( 'themes.php?page=educational-blocks-pro' ) ); ?>" target="_blank"><?php esc_html_e('Theme Informations', 'educational-blocks'); ?></a>
                         <a class="button-primary livedemo" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_LIVE_DEMO ); ?>" target="_blank"><?php esc_html_e('Live Demo', 'educational-blocks'); ?></a>
                         <a class="button-primary buynow" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Get Pro Theme', 'educational-blocks'); ?></a>
-                        <a class="button-primary theme-install" id="install-activate-button" href="#"><?php _e('Begin Installation', 'educational-blocks'); ?></a>
                     </div>
                 </div>
             </div>
