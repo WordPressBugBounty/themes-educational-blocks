@@ -117,3 +117,28 @@ function educational_blocks_redirect_after_activation() {
         exit;
     }
 }
+
+add_action( 'admin_bar_menu', 'educational_blocks_add_upgrade_button', 100 );
+
+function educational_blocks_add_upgrade_button( $educational_blocks_wp_admin_bar ) {
+
+    $educational_blocks_theme_name = wp_get_theme()->get( 'Name' );
+
+    $educational_blocks_args = array(
+        'id'    => 'educational_blocks_upgrade',
+        'title' => '<span style="color:#fff;font-weight:600;">
+            🚀 Upgrade to ' . esc_html( $educational_blocks_theme_name ) . ' Pro - 20% OFF 
+            <span style="background:#ff5722;color:#fff;padding:2px 8px;border-radius:3px;margin-left:6px;">
+                Buy Now
+            </span>
+        </span>',
+        'href'  => esc_url( EDUCATIONAL_BLOCKS_BUY_PRO ),
+        'meta'  => array(
+            'class'  => 'educational-blocks-upgrade-btn',
+            'title'  => 'Upgrade to Pro',
+            'target' => '_blank'
+        )
+    );
+
+    $educational_blocks_wp_admin_bar->add_node( $educational_blocks_args );
+}

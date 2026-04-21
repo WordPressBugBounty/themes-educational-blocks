@@ -3,11 +3,11 @@ Theme Name: Educational Blocks
 Theme URI: https://www.ovationthemes.com/products/free-education-wordpress-theme
 Author: pewilliams
 Author URI: https://www.ovationthemes.com/
-Description: Educational Blocks is a tailored solution crafted especially for educators, schools, learning, training, coaching, workshops, seminars, e-learning, curriculum, tutoring, mentorship, professional development, online courses, certification, academic, skill-building or educational institutions, prioritizing simplicity and accessibility in the digital realm. This theme stands out for its clean and intuitive design, providing a user-friendly platform that empowers educators to showcase educational content without the need for technical expertise. Central to the theme’s appeal is its responsiveness, ensuring optimal viewing on diverse devices, ranging from desktops to tablets and smartphones. This adaptability guarantees accessibility for a broad audience, fostering an inclusive online learning environment. It is also cross-browser compatible, allowing your users to visit your website through the web browser of their choice and comfort. A notable feature of the Educational Blocks WordPress Theme is its robust customization options, allowing users to effortlessly personalize their websites. Whether highlighting courses, faculty profiles, or school events, the theme offers flexibility to create a unique and engaging online space that aligns seamlessly with the educational institution’s identity. Practical functionalities include dedicated sections for course listings, events, and contact details, enhancing the overall user experience. While the theme emphasizes simplicity, it provides a valuable tool for educators seeking a professional online presence. Whether establishing connections with students or sharing educational content effectively, the Educational Blocks WordPress Theme serves as a foundational and accessible solution in the ever-evolving landscape of digital education. Demo: https://trial.ovationthemes.com/education-insight/
+Description: Educational Blocks is a tailored solution crafted especially for educators, schools, learning, training, coaching, workshops, seminars, e-learning, curriculum, tutoring, mentorship, professional development, online courses, certification, academic, skill-building or educational institutions, prioritizing simplicity and accessibility in the digital realm. This theme stands out for its clean and intuitive design, providing a user-friendly platform that empowers educators to showcase educational content without the need for technical expertise. Central to the theme’s appeal is its responsiveness, ensuring optimal viewing on diverse devices, ranging from desktops to tablets and smartphones. This adaptability guarantees accessibility for a broad audience, fostering an inclusive online learning environment. It is also cross-browser compatible, allowing your users to visit your website through the web browser of their choice and comfort. A notable feature of the Educational Blocks Theme is its robust customization options, allowing users to effortlessly personalize their websites. Whether highlighting courses, faculty profiles, or school events, the theme offers flexibility to create a unique and engaging online space that aligns seamlessly with the educational institution’s identity. Practical functionalities include dedicated sections for course listings, events, and contact details, enhancing the overall user experience. While the theme emphasizes simplicity, it provides a valuable tool for educators seeking a professional online presence. Whether establishing connections with students or sharing educational content effectively, the Educational Blocks Theme serves as a foundational and accessible solution in the ever-evolving landscape of digital education. Demo: https://trial.ovationthemes.com/education-insight/
 Requires at least: 6.1
 Tested up to: 6.9
 Requires PHP: 5.6
-Version: 4.4
+Version: 4.7
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: educational-blocks
@@ -31,6 +31,7 @@ button:focus{
 @media screen and (min-width:1000px){
     .wp-block-navigation ul li a{
         position: relative;
+        letter-spacing: 0;
     } 
 
     .wp-block-navigation ul li a::before {
@@ -728,10 +729,10 @@ p.scroll-top {
 .menu-header .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-twitter{
     background-color: var(--wp--preset--color--ternary);
 }
-.menu-header .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-linkedin{
+.menu-header .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-instagram{
     background-color: var(--wp--preset--color--secondary);
 }
-.menu-header .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-pinterest{
+.menu-header .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-linkedin{
     background-color: var(--wp--preset--color--fourth);
 }
 /*banner*/
@@ -1000,7 +1001,10 @@ img[src*="event2"]:hover{
         gap: 6px !important;
     }
     .inner-menu-header nav ul li a{
-  font-size: 15px !important;
+        font-size: 15px !important;
+    }
+    .inner-menu-header nav ul {
+        gap: 20px !important;
     }
 
 }
@@ -1072,7 +1076,7 @@ img[src*="event2"]:hover{
         font-size: 12px !important;
     }
     .event-text{
-        font-size: 9px !important;
+        line-height: 1.8;
     }
     .testimonial-upper-box{
         width: 50%;
@@ -1176,7 +1180,7 @@ img[src*="event2"]:hover{
         object-position: 37% 50% !important;
     }
     .banner-content h1{
-        font-size: 40px !important;
+        font-size: 35px !important;
     }
     .banner-content h3{
         width: 60%;
@@ -1184,7 +1188,11 @@ img[src*="event2"]:hover{
     }
     .banner-content p{
         font-size: 12px;
+        width: 90%;
     } 
+    .banner-content h3 {
+        width: 90%;
+    }
     .section-heading:before,.section-heading:after{
         display: none;
     }
@@ -1193,9 +1201,6 @@ img[src*="event2"]:hover{
     }
 }
 @media screen and (max-width:575px){
-    .banner-image-cover img{
-        display: none;
-    }
     .banner-image-cover{
         min-height: 500px !important;
         background-color: var(--wp--preset--color--primary);

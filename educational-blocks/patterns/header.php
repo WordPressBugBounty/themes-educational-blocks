@@ -21,7 +21,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"extra-small"} -->
-<p class="has-white-color has-text-color has-link-color has-extra-small-font-size"><?php esc_html_e('+44 785 462 358','educational-blocks'); ?></p>
+<p class="has-white-color has-text-color has-link-color has-extra-small-font-size"><a href="tel:+44 785 462 358"><?php esc_html_e('+44 785 462 358','educational-blocks'); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -33,7 +33,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"extra-small"} -->
-<p class="has-white-color has-text-color has-link-color has-extra-small-font-size"><?php esc_html_e('support@example.com','educational-blocks'); ?></p>
+<p class="has-white-color has-text-color has-link-color has-extra-small-font-size"><a href="mailto:support@example.com"><?php esc_html_e('support@example.com','educational-blocks'); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -92,13 +92,14 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"30%","className":"social-block"} -->
-<div class="wp-block-column is-vertically-aligned-center social-block" style="flex-basis:30%"><!-- wp:social-links {"size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"className":"is-style-default","layout":{"type":"flex","justifyContent":"right"}} -->
-<ul class="wp-block-social-links has-small-icon-size is-style-default"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+<div class="wp-block-column is-vertically-aligned-center social-block" style="flex-basis:30%"><!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"right"}} -->
+<ul class="wp-block-social-links has-small-icon-size is-style-default"><!-- wp:social-link {"url":"www.facebook.com","service":"facebook"} /-->
 
-<!-- wp:social-link {"url":"#","service":"twitter"} /-->
+<!-- wp:social-link {"url":"www.twitter.com","service":"twitter"} /-->
 
-<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
- </ul>
+<!-- wp:social-link {"url":"www.instagram.com","service":"instagram"} /-->
+
+<!-- wp:social-link {"url":"www.linkedin.com","service":"linkedin"} /--></ul>
 <!-- /wp:social-links --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
