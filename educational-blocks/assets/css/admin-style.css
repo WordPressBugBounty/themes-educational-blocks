@@ -182,7 +182,10 @@
     height: 20px;
     font-size: 20px;
 }
-
+.ot-pro-hero .button-hero .dashicons ,
+.notice-div .button-primary span{
+    line-height: 20px !important;
+}
 /* Primary Pro Button */
 .ot-pro-hero .button-pro {
     background: #fff;
