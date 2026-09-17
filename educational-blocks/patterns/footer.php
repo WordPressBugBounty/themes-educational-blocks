@@ -104,11 +104,11 @@
 <div class="wp-block-group has-white-color has-footer-bg-background-color has-text-color has-background" style="padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:group {"align":"wide","className":"footer-rights","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide footer-rights"><!-- wp:group {"className":"copyright-text","style":{"spacing":{"padding":{"top":"20px"}},"border":{"top":{"color":"#757070","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group copyright-text" style="border-top-color:#757070;border-top-width:1px;padding-top:20px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"small"} -->
-<p class="has-white-color has-text-color has-link-color has-small-font-size"><a rel="noreferrer noopener" href="https://www.ovationthemes.com/products/free-education-wordpress-theme" target="_blank"><?php esc_html_e('Educational Blocks WordPress Theme','educational-blocks'); ?></a>.</p>
+<p class="has-white-color has-text-color has-link-color has-small-font-size"><a rel="noreferrer noopener" href="https://www.ovationthemes.com/products/free-education-WordPress-theme" target="_blank"><?php esc_html_e('Educational Blocks WordPress Theme','educational-blocks'); ?></a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"white"} -->
-<p class="has-white-color has-text-color has-link-color"><?php esc_html_e('Proudly powered by ','educational-blocks'); ?><a rel="noreferrer noopener" href="https://www.ovationthemes.com/" target="_blank"><?php esc_html_e('Ovation Themes','educational-blocks'); ?></a> <?php esc_html_e('and','educational-blocks'); ?> <a href="https://wordpress.org"><?php esc_html_e('WordPress','educational-blocks'); ?></a>.</p>
+<p class="has-white-color has-text-color has-link-color"><?php esc_html_e('Proudly powered by ','educational-blocks'); ?><a rel="noreferrer noopener" href="https://www.ovationthemes.com/" target="_blank"><?php esc_html_e('Ovation Themes','educational-blocks'); ?></a> <?php esc_html_e('and','educational-blocks'); ?> <a href="https://WordPress.org"><?php esc_html_e('WordPress','educational-blocks'); ?></a>.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

@@ -62,7 +62,7 @@
 
 <!-- wp:navigation-link {"label":"COURSES","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"BUY NOW","type":"link","opensInNewTab":true,"url":"https://www.ovationthemes.com/products/education-wordpress-theme","kind":"custom","className":"buynow"} /-->
+<!-- wp:navigation-link {"label":"BUY NOW","type":"link","opensInNewTab":true,"url":"https://www.ovationthemes.com/products/education-WordPress-theme","kind":"custom","className":"buynow"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
 
