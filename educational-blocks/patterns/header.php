@@ -62,7 +62,7 @@
 
 <!-- wp:navigation-link {"label":"COURSES","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"BUY NOW","type":"link","opensInNewTab":true,"url":"https://www.ovationthemes.com/products/education-WordPress-theme","kind":"custom","className":"buynow"} /-->
+<!-- wp:navigation-link {"label":"BUY NOW","type":"link","opensInNewTab":true,"url":"https://www.ovationthemes.com/products/education-wordpress-theme","kind":"custom","className":"buynow"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
 
@@ -76,8 +76,8 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"40%","className":"menu-right-box"} -->
 <div class="wp-block-column is-vertically-aligned-center menu-right-box" style="flex-basis:40%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"70%","className":"nav-block-right"} -->
-<div class="wp-block-column is-vertically-aligned-center nav-block-right" style="flex-basis:70%"><!-- wp:navigation {"textColor":"heading","overlayBackgroundColor":"white","overlayTextColor":"black","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"60%","className":"nav-block-right"} -->
+<div class="wp-block-column is-vertically-aligned-center nav-block-right" style="flex-basis:60%"><!-- wp:navigation {"textColor":"heading","overlayBackgroundColor":"white","overlayTextColor":"black","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} -->
 <!-- wp:navigation-link {"label":"EVENTS","type":"","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-submenu {"label":"BLOGS","type":"","url":"#","kind":"custom"} -->
@@ -91,8 +91,8 @@
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"center","width":"30%","className":"social-block"} -->
-<div class="wp-block-column is-vertically-aligned-center social-block" style="flex-basis:30%"><!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"right"}} -->
+<!-- wp:column {"verticalAlignment":"center","width":"40%","className":"social-block"} -->
+<div class="wp-block-column is-vertically-aligned-center social-block" style="flex-basis:40%"><!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"right"}} -->
 <ul class="wp-block-social-links has-small-icon-size is-style-default"><!-- wp:social-link {"url":"www.facebook.com","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"www.twitter.com","service":"twitter"} /-->
