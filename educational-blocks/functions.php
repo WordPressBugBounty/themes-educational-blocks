@@ -113,7 +113,7 @@ add_action('after_switch_theme', 'educational_blocks_redirect_after_activation')
 function educational_blocks_redirect_after_activation() {
     if ( ! get_option( 'educational_blocks_activation_redirect', false ) ) {
         update_option( 'educational_blocks_activation_redirect', true );
-        wp_safe_redirect( admin_url( 'themes.php?page=educational-blocks-pro' ) );
+        wp_safe_redirect( admin_url( 'themes.php?page=' . EDUCATIONAL_BLOCKS_PRO_PAGE_SLUG ) );
         exit;
     }
 }

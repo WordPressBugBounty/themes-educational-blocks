@@ -24,3 +24,6 @@ define('EDUCATIONAL_BLOCKS_THEME_NAME',__('Premium Educational Blocks Theme','ed
 if ( ! defined( 'EDUCATIONAL_BLOCKS_BUNDLE_LINK' ) ) {
 define('EDUCATIONAL_BLOCKS_BUNDLE_LINK',__('https://www.ovationthemes.com/products/wordpress-bundle','educational-blocks'));
 }
+if ( ! defined( 'EDUCATIONAL_BLOCKS_PRO_PAGE_SLUG' ) ) {
+    define( 'EDUCATIONAL_BLOCKS_PRO_PAGE_SLUG', get_template() . '-pro' );
+}

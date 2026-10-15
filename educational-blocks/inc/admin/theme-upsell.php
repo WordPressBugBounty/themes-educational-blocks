@@ -16,7 +16,7 @@ function educational_blocks_add_theme_page() {
         __('Educational Blocks Pro', 'educational-blocks'),
         'Educational Blocks 🚀',
         'manage_options',
-        'educational-blocks-pro',
+        EDUCATIONAL_BLOCKS_PRO_PAGE_SLUG,
         'educational_blocks_pro_page_callback'
     );
 }

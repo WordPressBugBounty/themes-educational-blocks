@@ -34,7 +34,7 @@ function educational_blocks_customize_register( $wp_customize ) {
 										<li style="margin-bottom: 10px;">✓ ' . __('Priority Support', 'educational-blocks') . '</li>
 										<li style="margin-bottom: 10px;">✓ ' . __('One-Click Demo Import', 'educational-blocks') . '</li>
 									</ul>
-									<a href="' . esc_url(admin_url('themes.php?page=educational-blocks-pro')) . '" 
+									<a href="' . esc_url(admin_url('themes.php?page=' . EDUCATIONAL_BLOCKS_PRO_PAGE_SLUG)) . '" 
 									   style="display: inline-block; background: #fff; color: #667eea; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-weight: 600; margin: 10px 5px; transition: all 0.3s;">
 									   ' . __('View All Features', 'educational-blocks') . '
 									</a>

@@ -149,7 +149,7 @@ function educational_blocks_install_and_activate_plugins() {
     if (ob_get_length()) ob_clean();
 
     header('Content-Type: application/json; charset=utf-8');
-    $redirect_url = admin_url('themes.php?page=educational-blocks-pro');
+    $redirect_url = admin_url('themes.php?page=' . EDUCATIONAL_BLOCKS_PRO_PAGE_SLUG);
     echo json_encode([
         'success' => true,
         'data' => [
@@ -201,7 +201,7 @@ function educational_blocks_custom_admin_notice() {
     if (!get_option('dismissed-get_started_notice', false)) {
         $educational_blocks_current_screen = get_current_screen();
         $educational_blocks_theme = wp_get_theme();
-        if ($educational_blocks_current_screen && $educational_blocks_current_screen->id !== 'appearance_page_educational-blocks-pro') {
+        if ($educational_blocks_current_screen && $educational_blocks_current_screen->id !== 'appearance_page_' . EDUCATIONAL_BLOCKS_PRO_PAGE_SLUG) {
             ?>
 
             <div class="educational-blocks-admin-notice notice notice-info is-dismissible content-install-plugin theme-info-notice" id="educational-blocks-dismiss-notice" data-notice="get_started_notice">
@@ -217,7 +217,7 @@ function educational_blocks_custom_admin_notice() {
                             <?php esc_html_e( 'Begin Installation', 'educational-blocks' ); ?>
                         </button>
                         <?php endif; ?>
-                        <a class="button-primary getstarted" href="<?php echo esc_url( admin_url( 'themes.php?page=educational-blocks-pro' ) ); ?>" target="_blank"><?php esc_html_e('Theme Informations', 'educational-blocks'); ?></a>
+                        <a class="button-primary getstarted" href="<?php echo esc_url( admin_url( 'themes.php?page=' . EDUCATIONAL_BLOCKS_PRO_PAGE_SLUG ) ); ?>" target="_blank"><?php esc_html_e('Theme Informations', 'educational-blocks'); ?></a>
                         <a class="button-primary livedemo" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_LIVE_DEMO ); ?>" target="_blank"><?php esc_html_e('Live Demo', 'educational-blocks'); ?></a>
                         <a class="button-primary buynow" href="<?php echo esc_url( EDUCATIONAL_BLOCKS_BUY_PRO ); ?>" target="_blank"><?php esc_html_e('Get Pro Theme', 'educational-blocks'); ?></a>
                     </div>
